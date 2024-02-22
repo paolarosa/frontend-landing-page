@@ -29,15 +29,21 @@
   position: relative;
 }
 
+.header div {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: right;
+}
+
 .header p {
-  margin-right: 80px;
 }
 
 .logo {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 80px;
+  margin-top: 65px;
   width: 50%;
   /* margin-left: 100px;
      */
@@ -55,6 +61,7 @@
   justify-content: center;
   position: relative;
   width: 50%;
+  margin-left: 50px;
 }
 
 .content img {
@@ -62,7 +69,7 @@
   height: 100%;
   object-fit: contain;
   position: absolute;
-  top: -100;
+  top: -60px;
 }
 
 .content img:nth-child(1) {

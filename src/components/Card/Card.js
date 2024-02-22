@@ -5,7 +5,7 @@ const Card = ({ imageSrc, title, recipeName, pdfFile }) => {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = pdfFile;
-    link.download = "livro_de_receitas.pdf";
+    link.download = recipeName;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
