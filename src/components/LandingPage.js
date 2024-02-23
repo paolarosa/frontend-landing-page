@@ -42,10 +42,10 @@ const LandingPage = () => {
         <div className="logo">
           <img src={logoImage} alt="Logo" />
           <p className="textDownload">
-            Faça download gratuito do nosso livro de receitas!
+            Scarica gratuitamente il nostro ricettario!
           </p>
           <button className="buttonDownload" onClick={handleDownload}>
-            Download
+            Scaricamento
           </button>
         </div>
       </div>

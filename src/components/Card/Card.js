@@ -16,7 +16,7 @@ const Card = ({ imageSrc, title, recipeName, pdfFile }) => {
       <img src={imageSrc} alt={title} />
       <div className="overlay">
         <button className="download-button" onClick={handleDownload}>
-          Fazer download da receita
+          Scarica la ricetta
         </button>
       </div>
       <h3>{recipeName}</h3>
